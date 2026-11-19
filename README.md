@@ -1,4 +1,4 @@
-# nexatron-io
+# Nexatron
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-nexatron-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://nexatron.io/
+Nexatron provides an enterprise context platform that connects AI agents with business systems, ensuring consistent data, approved definitions, business rules, and permissions across all interactions. The platform offers a semantic layer, connectors to over 279 systems including databases, data warehouses, and SaaS applications, and supports major AI assistants like Claude, ChatGPT, and Microsoft 365 Copilot via MCP. It emphasizes security with SOC 2 Type I, ISO 27001, GDPR alignment, and row‑level security, enabling enterprises to safely leverage AI while maintaining control over their data.
+
+**Areas:** Company · AI · Enterprise · Context · Data Integration
+
+## Nexatron on APIs.io
+
+Everything profiled for Nexatron is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nexatron-io/](https://apis.io/providers/nexatron-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Nexatron Auth API](https://apis.io/apis/nexatron-io/nexatron-io-auth-api/) — The auth API from Nexatron — 2 operation(s) for auth.
+- [Nexatron Connections API](https://apis.io/apis/nexatron-io/nexatron-io-connections-api/) — The connections API from Nexatron — 9 operation(s) for connections.
+- [Nexatron Contact API](https://apis.io/apis/nexatron-io/nexatron-io-contact-api/) — The contact API from Nexatron — 1 operation(s) for contact.
+- [Nexatron Conversations API](https://apis.io/apis/nexatron-io/nexatron-io-conversations-api/) — The conversations API from Nexatron — 7 operation(s) for conversations.
+- [Nexatron Feedback API](https://apis.io/apis/nexatron-io/nexatron-io-feedback-api/) — The feedback API from Nexatron — 2 operation(s) for feedback.
+- [Nexatron Query API](https://apis.io/apis/nexatron-io/nexatron-io-query-api/) — The query API from Nexatron — 2 operation(s) for query.
+- [Nexatron Semantic API](https://apis.io/apis/nexatron-io/nexatron-io-semantic-api/) — The semantic API from Nexatron — 2 operation(s) for semantic.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Nexatron Agentic Access](https://apis.io/agentic-access/nexatron-io/nexatron-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [QueryResponse](https://apis.io/schemas/nexatron-io/nexatron-io-app-schemas-query-query-response/)
+- [ConnectionResponse](https://apis.io/schemas/nexatron-io/nexatron-io-connection-response/)
+- [MessageResponse](https://apis.io/schemas/nexatron-io/nexatron-io-message-response/)
+- [MetricCreate](https://apis.io/schemas/nexatron-io/nexatron-io-metric-create/)
+- [MetricResponse](https://apis.io/schemas/nexatron-io/nexatron-io-metric-response/)
+- [MetricUpdate](https://apis.io/schemas/nexatron-io/nexatron-io-metric-update/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nexatron Io Context](https://apis.io/jsonld/nexatron-io/nexatron-io-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Nexatron Openapi Overlay](https://apis.io/overlays/nexatron-io/nexatron-io-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Nexatron API Rules](https://apis.io/rules/nexatron-io/nexatron-io-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nexatron Authentication](https://apis.io/security/nexatron-io/nexatron-io-authentication/)
+- [Nexatron Domain Security](https://apis.io/security/nexatron-io/nexatron-io-domain-security/)
+- [Nexatron Trust Center](https://apis.io/security/nexatron-io/nexatron-io-trust-center/)
+- [Nexatron Vulnerability Disclosure](https://apis.io/security/nexatron-io/nexatron-io-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://nexatron.io/)
+- [Documentation](https://docs.nexatron.io/)
+- [Getting started](https://docs.nexatron.io/admin/setup/)
+- [Support](https://nexatron.io/connectors/category/support)
+- [Blog](https://nexatron.io/blog)
+- [Security](https://nexatron.io/connectors/category/security)
+- [Compliance](https://nexatron.io/trust)
+
+## API Evangelist rating
+
+**Kin Score 51.5** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 58.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 16.7 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 23.4 |
+
+**Agent readiness 62.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nexatron-io/](https://apis.io/providers/nexatron-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nexatron: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nexatron-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
